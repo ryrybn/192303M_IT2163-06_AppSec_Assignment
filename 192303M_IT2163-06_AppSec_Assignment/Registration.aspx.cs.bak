@@ -32,16 +32,16 @@ namespace _192303M_IT2163_06_AppSec_Assignment
 
         protected void btn_signup_Click(object sender, EventArgs e)
         {
-            string firstName = HttpUtility.HtmlEncode(tb_firstname.Text.ToString().Trim());
-            string lastName = HttpUtility.HtmlEncode(tb_lastname.Text.ToString().Trim());
-            string email = HttpUtility.HtmlEncode(tb_email.Text.ToString().Trim());
-            string password = HttpUtility.HtmlEncode(tb_password.Text.ToString().Trim());
+            string firstName = tb_firstname.Text.ToString().Trim();
+            string lastName = tb_lastname.Text.ToString().Trim();
+            string email = tb_email.Text.ToString().Trim();
+            string password = tb_password.Text.ToString().Trim();
             DateTime dob = Convert.ToDateTime(tb_dob.Text);
-            string cardholderName = HttpUtility.HtmlEncode(tb_cardholdername.Text.ToString().Trim());
+            string cardholderName = tb_cardholdername.Text.ToString().Trim();
             string cardType = rb_cardtype.SelectedValue.ToString();
-            string cardNo = HttpUtility.HtmlEncode(tb_cardno.Text.ToString().Trim());
-            string cardExpiry = HttpUtility.HtmlEncode(tb_expirydate.Text.ToString().Trim());
-            string cardCVV = HttpUtility.HtmlEncode(tb_cvv.Text.ToString().Trim());
+            string cardNo = tb_cardno.Text.ToString().Trim();
+            string cardExpiry = tb_expirydate.Text.ToString().Trim();
+            string cardCVV = tb_cvv.Text.ToString().Trim();
 
             int score = 0;
             bool length = false;

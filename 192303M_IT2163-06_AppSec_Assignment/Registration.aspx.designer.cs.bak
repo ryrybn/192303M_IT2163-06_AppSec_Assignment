@@ -327,6 +327,7 @@ namespace _192303M_IT2163_06_AppSec_Assignment
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+        /// </remarks>
         protected global::System.Web.UI.WebControls.RegularExpressionValidator lbl_cvverror;
 
         /// <summary>

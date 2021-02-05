@@ -219,7 +219,7 @@
                     <br />
 
                     <b style="font-weight: normal">
-                    <asp:RegularExpressionValidator ID="lbl_cvverror" runat="server" ControlToValidate="tb_cvv" ErrorMessage="Please enter a valid 3-digit CVV" ForeColor="Red" ValidationExpression="^[0-9]{3}$"></asp:RegularExpressionValidator>
+            <asp:RequiredFieldValidator ID="lbl_cvverror" runat="server" ControlToValidate="tb_cvv" ErrorMessage="Please enter CVV" ForeColor="Red"></asp:RequiredFieldValidator>
 
     </b>
 
