@@ -15,13 +15,22 @@ namespace _192303M_IT2163_06_AppSec_Assignment
     {
 
         /// <summary>
-        /// HeadContent control.
+        /// hl_profile control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
+        protected global::System.Web.UI.WebControls.HyperLink hl_profile;
+
+        /// <summary>
+        /// hl_login control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hl_login;
 
         /// <summary>
         /// MainContent control.

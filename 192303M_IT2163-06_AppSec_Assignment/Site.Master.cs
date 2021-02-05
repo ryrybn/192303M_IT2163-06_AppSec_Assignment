@@ -13,5 +13,33 @@ namespace _192303M_IT2163_06_AppSec_Assignment
         {
 
         }
+        public bool ProfileLinkVisbility
+        {
+            set
+            { hl_profile.Visible = value; }
+        }
+
+        public string ProfileLabel
+        {
+            get
+            { return hl_profile.Text; }
+            set
+            { hl_profile.Text = value; }
+        }
+
+        public string LoginLink
+        {
+            get
+            { return hl_login.NavigateUrl; }
+            set
+            { hl_login.NavigateUrl = value; }
+        }
+        public string LoginLabel
+        {
+            get
+            { return hl_login.Text; }
+            set
+            { hl_login.Text = value; }
+        }
     }
 }

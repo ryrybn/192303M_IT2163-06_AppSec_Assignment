@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _192303M_IT2163_06_AppSec_Assignment
+namespace _192303M_IT2163_06_AppSec_Assignment.CustomErrors
 {
 
 
-    public partial class Contact
+    public partial class _404error
     {
     }
 }
